@@ -1,4 +1,90 @@
-#pageWrap {
-	padding: 2rem;
-	background: pink;
+:root {
+	--color-white: #ffffff;
+	--color-purple: #582c67;
+	--color-sand: #E5DDCB;
+	--color-sea: #cffdf0;
+	--color-orange: #EB7B59;
+	--color-red: #CF4647;
+	--text-primary: var(--color-purple);
+	--text-inverted-primary: var(--color-white);
+	--text-secondary: rgba(46,62,72,0.6);
+	--text-inverted-secondary: rgba(255,255,255,0.7);
+	--space-gutter: 1.6rem;
+	--space-gutter-half: 1em;
+}
+
+body {
+	background-color: var(--color-sand);
+	color: var(--color-text-secondary);
+	font-family: "Input Sans Mono", Monaco, Consolas, monospace;
+}
+
+article {
+	margin: 0 auto;
+	max-width: 840px;
+	padding: var(--space-gutter);
+}
+
+a:link,
+a:visited {
+	color: var(--color-red);
+}
+a:hover,
+a:active {
+	color: var(--color-orange);
+}
+
+h1, h2, h3, h4, h5, h6,
+strong, dt, th {
+	font-weight: bold;
+	color: var(--color-purple);
+}
+
+/*
+ * Text modifiers
+ */
+.text--primary {
+	color: var(--text-primary);
+}
+.inverted .text--primary {
+	color: var(--text-inverted-primary);
+}
+.text--secondary {
+	color: var(--text-primary);
+}
+.inverted .text--secondary {
+	color: var(--text-inverted-secondary);
+}
+.text--caption {
+	color: var(--text--primary);
+	font-weight: bold;
+	font-size: 0.8rem;
+	font-style: italic;
+	margin-top: var(--space-gutter-half);
+}
+
+/*
+ * Stripes
+ */
+.stripe--sand {
+	background-color: var(--color-sand);
+}
+.stripe--white {
+	background-color: var(--color-white);
+}
+
+/*
+ * Examples
+ */
+.example {
+	border: 3px double var(--color-purple);
+}
+
+/*
+ * Cards
+ */
+.card {
+	font-size: 0.8rem;
+	padding: var(--space-gutter-half);
+	background: var(--color-sea);
 }
