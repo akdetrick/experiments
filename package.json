@@ -1,0 +1,15 @@
+{
+  "name": "experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "yarn autoreload-server -w \"**/**.{html,js,css}\" ./",
+	 "new": "cp -r ./_TEMPLATE"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simple-autoreload-server": "^0.2.7"
+  }
+}
