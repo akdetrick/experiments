@@ -16,7 +16,7 @@
 	</head>
 	<body>
 
-		<section class="stripe--tan">
+		<section>
 			<article>
 				<h1>Basic template grid</h1>
 				<p>Let's start with a basic <strong>grid-template</strong> grid...</p>
@@ -55,7 +55,7 @@
 			</article>
 		</section>
 
-		<section class="stripe--tan">
+		<section>
 			<article>
 				<h1>Overlapping grid items</h1>
 				<p>Can we overlap grid items by defining widths?</p>
@@ -91,9 +91,54 @@
 					</div>
 				</div>
 			</article>
+			<article>
+				<h2>The following grid has no template...</h2>
+				<p class="text--catpion">The cards within are positioned to overlap start and end cells</p>
+				<div id="overlapExampleNoTemplate" class="example">
+					<div class="card">
+						<h3>Item 1</h3>
+						<p>This card is a grid-item</p>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+						<p>This card is a grid-item</p>
+					</div>
+					<div class="card">
+						<h3>Item 3</h3>
+						<p>This card is a grid-item</p>
+					</div>
+					<div class="inverted card">
+						<h3>Item 4</h3>
+						<p><strong>Unpositioned!<strong></p>
+						<p>Jumps into next available space from top left</p>
+					</div>
+				</div>
+			</article>
 		</section>
 
-		<section class="stripe--tan">
+		<section>
+			<article>
+				<h1>Repeat test</h1>
+				<p>Trying different variations on <strong>repeat()</strong></p>
+			</article>
+		</section>
+
+		<section class="stripe--white">
+			<article>
+				<h3>Big first column</h3>
+				<p>3fr first col with remaning space divided evenly into 4 columns</p>
+				<div class="grid-template-bigFirstCol example">
+					<div class="card">
+						<h3>Item in big col</h3>
+					</div>
+					<div class="card">
+						<h3>item in smol col</h3>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<section>
 			<article>
 				<p class="text--caption">github: <a href="https://github.com/akdetrick/experiments/tree/master/css-grid">akdetrick/experiments/tree/master/css-grid</a></p>
 			</article>

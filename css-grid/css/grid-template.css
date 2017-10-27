@@ -3,13 +3,31 @@
 	width: 100%;
 	height: 50vh;
 	grid-gap: 1rem;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
 	grid-template-areas:
 		"a a a b"
 		"a a a b"
 		"c c c c"
 		"d . . e";
+}
+
+.grid-template-bigFirstCol {
+	display: grid;
+	width: 100%;
+	height: 20vh;
+	grid-gap: 1rem;
+	grid-template-rows: 1fr;
+	grid-template-columns: 3fr repeat(4, 1fr);
+	grid-template-areas:
+		"hey look at this lol";
+}
+.grid-template-bigFirstCol .card:nth-child(1) {
+	grid-area: hey;
+}
+.grid-template-bigFirstCol .card:nth-child(2) {
+	background-color: var(--color-sand);
+	grid-area: this;
 }
 
 #basicExample .card:nth-child(1) {
@@ -52,4 +70,38 @@
 }
 #overlapExample .card:nth-child(6) {
 	grid-area: e;
+}
+
+#overlapExampleNoTemplate {
+	display: grid;
+	width: 100%;
+	height: 40vh;
+	grid-gap: 1rem;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(5, 1fr);
+}
+#overlapExampleNoTemplate .card:nth-child(1) {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+#overlapExampleNoTemplate .card:nth-child(2) {
+	opacity: 0.75;
+	background-color: var(--color-sand);
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+#overlapExampleNoTemplate .card:nth-child(3) {
+	opacity: 0.5;
+	background: pink;
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+#overlapExampleNoTemplate .card:nth-child(4) {
+	background-color: var(--color-purple);
 }
