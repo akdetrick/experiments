@@ -118,7 +118,7 @@
 
 		<section>
 			<article>
-				<h1>Track definitions</h1>
+				<h1>Uneven tracks</h1>
 				<p>Trying different variations on <strong>repeat()</strong></p>
 			</article>
 		</section>
@@ -136,9 +136,139 @@
 					</div>
 				</div>
 			</article>
+		</section>
+
+		<section>
 			<article>
-				<h3>Fixed track sizes</h3>
-				<div id="fixedTrackSizes" class="example">
+				<h1>Main axis alignment with fixed track grids</h1>
+				<p>Examples of <strong>justification</strong> properties in fixed track grids</p>
+			</article>
+		</section>
+
+		<section class="stripe--white">
+			<article>
+				<h3>Unaligned (Default)</h3>
+				<div id="unalignedFixed" class="grid-template-fixed example">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h3>`justify-items: start;`</h3>
+				<div id="justifyItemsFixed" class="grid-template-fixed example">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h3>`justify-content: space-between;`</h3>
+				<div id="justifyContentFixed" class="grid-template-fixed example">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h3>`justify-content: space-evenly;`</h3>
+				<div class="grid-template-fixed example" style="justify-content: space-evenly;">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<section>
+			<article>
+				<h1>Cross axis alignment with fixed track grids</h1>
+				<p>Examples of <strong>align</strong> properties in fixed track grids</p>
+			</article>
+		</section>
+
+		<section class="stripe--white">
+			<article>
+				<h3>Unaligned (Default)</h3>
+				<div class="grid-template-fixed grid-template-fixed--tooTall example">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h3>Align items (center)</h3>
+				<div class="grid-template-fixed grid-template-fixed--tooTall example" style="align-items: center;">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h3>Align items (end)</h3>
+				<div class="grid-template-fixed grid-template-fixed--tooTall example" style="align-items: end;">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h3>Align Content (end)</h3>
+				<div class="grid-template-fixed grid-template-fixed--tooTall example" style="align-content: end;">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h3>Align Content (space-evenly)</h3>
+				<div class="grid-template-fixed grid-template-fixed--tooTall example" style="align-content: space-evenly;">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h3>Align Content (space-between)</h3>
+				<div class="grid-template-fixed grid-template-fixed--tooTall example" style="align-content: space-between;">
+					<div class="card">
+						<h3>Item 1</h3>
+					</div>
+					<div class="card">
+						<h3>Item 2</h3>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h3>Align Content (space-around)</h3>
+				<div class="grid-template-fixed grid-template-fixed--tooTall example" style="align-content: space-around;">
 					<div class="card">
 						<h3>Item 1</h3>
 					</div>
