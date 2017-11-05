@@ -70,24 +70,26 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: left;
 }
 
-.bio--big {
-	text-align: left;
-	width: 100%;
-	display: grid;
-	grid-row-gap: 0;
-	grid-column-gap: 2rem;
-	grid-template-columns: repeat(1fr, 4);
-	grid-template-rows: repeat(auto, 2);
-	grid-template-areas:
-		"photo head head head"
-		"photo body body body";
-}
-.bio--big hgroup {
-	grid-area: head;
-}
-.bio--big .bio-photo {
-	grid-area: photo;
-}
-.bio--big .bio-description {
-	grid-area: body;
+@media (min-width: 680px) {
+	.bio {
+		text-align: left;
+		width: 100%;
+		display: grid;
+		grid-row-gap: 0;
+		grid-column-gap: 2rem;
+		grid-template-columns: repeat(1fr, 4);
+		grid-template-rows: repeat(auto, 2);
+		grid-template-areas:
+			"photo head head head"
+			"photo body body body";
+	}
+	.bio hgroup {
+		grid-area: head;
+	}
+	.bio .bio-photo {
+		grid-area: photo;
+	}
+	.bio .bio-description {
+		grid-area: body;
+	}
 }
