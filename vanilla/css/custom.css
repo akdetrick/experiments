@@ -1,0 +1,30 @@
+::selection {
+	background: var(--c-orange);
+	color: var(--c-text--primary--inverted);
+}
+::-moz-selection {
+	background: var(--c-orange);
+	color: var(--c-text--primary--inverted);
+}
+
+.swatch {
+	margin: 1rem auto;
+	padding: 1rem 2rem;
+	width: 80%;
+}
+
+.swatch--orange {
+	background-color: var(--c-orange);
+}
+.swatch--teal {
+	background-color: var(--c-teal);
+}
+.swatch--plum {
+	background-color: var(--c-plum);
+}
+.swatch--sand {
+	background-color: var(--c-sand);
+}
+.swatch--blue {
+	background-color: var(--c-blue);
+}

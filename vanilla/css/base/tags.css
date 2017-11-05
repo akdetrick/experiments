@@ -1,0 +1,53 @@
+body {
+	font-family: var(--font-sans);
+	color: var(--c-text--primary);
+}
+.inverted {
+	color: var(--c-text--primary--inverted);
+}
+
+/* TODO: rm inverted styles if primary is default for all text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: var(--text-m);
+	font-weight: bold;
+	color: var(--c-text--primary);
+}
+.inverted h1,
+.inverted h2,
+.inverted h3,
+.inverted h4,
+.inverted h5,
+.inverted h6 {
+	color: var(--c-text-primary--inverted);
+}
+
+
+a:link,
+a:visited {
+	color: var(--c-plum);
+}
+a:hover,
+a:active {
+	color: var(--c-darkblue);
+	text-decoration: underline;
+}
+.inverted a:link,
+.inverted a:visited {
+	color: var(--c-sand);
+}
+.inverted a:hover,
+.inverted a:active {
+	color: var(--c-text--secondary--inverted);
+}
+
+code {
+	font-family: var(--font-mono);
+	background: var(-c-plum);
+	color: var(-c-text--primary--inverted);
+	padding: 0.25rem;
+}

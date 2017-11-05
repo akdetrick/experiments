@@ -1,0 +1,22 @@
+
+/**
+ * Base color palette
+ */
+:root {
+	--c-orange: #f15d03;
+	--c-teal: #69eccf;
+	--c-plum: #580f31;
+	--c-sand: #fbe7cf;
+	--c-blue: #66CAD9;
+	--c-darkblue: #0094c3;
+}
+
+/**
+ * Type Colors
+ */
+:root {
+	--c-text--primary: rgba(0,0,0,0.87);
+	--c-text--secondary: rgba(0,0,0,0.54);
+	--c-text--primary--inverted: rgba(255,255,255,0.9);
+	--c-text--secondary--inverted: rgba(255,255,255,0.7);
+}

@@ -1,0 +1,95 @@
+
+/**
+ * Text sizes
+ */
+.text--xl {
+	font-size: var(--text--xl);
+}
+.text--l {
+	font-size: var(--text--l);
+}
+.text--m {
+	font-size: var(--text--m);
+}
+.text--s {
+	font-size: var(--text--s);
+}
+
+/**
+ * Text colors
+ */
+.text--orange {
+	color: var(--c-orange);
+}
+.text--teal {
+	color: var(--c-teal);
+}
+.text--plum {
+	color: var(--c-plum);
+}
+.text--sand {
+	color: var(--c-plum);
+}
+.text--blue {
+	color: var(--c-blue);
+}
+.text--primary {
+	color: var(--c-text--primary);
+}
+.inverted .text--primary {
+	color: var(--c-text--primary--inverted);
+}
+.text--secondary {
+	color: var(--c-text--secondary);
+}
+.inverted .text--secondary {
+	color: var(--c-text--secondary--inverted);
+}
+
+/**
+ * Font styles/variants
+ */
+.text--italic {
+	font-style: italic;
+}
+.text--uppercase {
+	font-variant: uppercase;
+}
+.text--weight-bold {
+	font-weight: bold;
+}
+.text--weight-normal {
+	font-weight: normal;
+}
+
+/**
+ * Text types
+ */
+.text--display {
+	font-family: var(--font-serif);
+	font-size: var(--text--display);
+	font-weight: bold;
+	color: var(--c-text--primary)
+}
+.inverted .text--display {
+	color: var(--c-text--primary--inverted);
+}
+.text--heading {
+	font-family: var(--font-serif);
+	font-size: var(--text--xl);
+	font-weight: bold;
+	color: var(--c-text--primary);
+}
+.inverted .text--heading {
+	color: var(--c-text--primary--inverted);
+}
+.text--subheading {
+	font-family: var(--font-serif);
+	font-size: var(--text--l);
+	font-style: italic;
+	font-weight: normal;
+	color: var(--c-text--secondary);
+}
+.inverted .text--subheading {
+	color: var(--c-text--secondary--inverted);
+}
