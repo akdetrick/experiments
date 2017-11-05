@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400i,700,700i|Raleway:300');
+
+:root {
+	--font-serif: 'PT Serif', serif;
+	--font-mono: 'Raleway', sans-serif;
+	--color-brs-orange: #f15d03;
+}
+
+body {
+	font-family: var(--font-mono);
+	line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	margin: 0;
+}
+
+
+.text--heading {
+	font-family: var(--font-serif);
+	font-weight: bold;
+}
+
+.text--italic {
+	text-decoration: italic;
+}
+
+.text--hide {
+	font-size: 0;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+
+
+.bio {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 640px;
+}
+
+.bio-name {
+	font-family: var(--font-serif);
+	font-weight: bold;
+	font-size: 1.75rem;
+}
+
+.bio-title {
+	color: var(--color-brs-orange);
+	font-family: var(--font-serif);
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.12rem;
+}
+
+.bio-photo {
+	margin: 0 auto 1rem;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background-image: url('../img/dana.png');
+	background-size: cover;
+	background-position: center center;
+}
+
+.bio-description {
+	text-align: left;
+}
+
+.bio--big {
+	text-align: left;
+	width: 100%;
+	display: grid;
+	grid-row-gap: 0;
+	grid-column-gap: 2rem;
+	grid-template-columns: repeat(1fr, 4);
+	grid-template-rows: repeat(auto, 2);
+	grid-template-areas:
+		"photo head head head"
+		"photo body body body";
+}
+.bio--big hgroup {
+	grid-area: head;
+}
+.bio--big .bio-photo {
+	grid-area: photo;
+}
+.bio--big .bio-description {
+	grid-area: body;
+}
