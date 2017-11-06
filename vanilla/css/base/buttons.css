@@ -32,7 +32,7 @@
 .button--primary,
 .inverted .button--primary {
 	color: var(--c-text--primary--inverted) !important;
-	background: var(--c-orange);
+	background: var(--c-teal);
 }
 .button--primary:hover,
 .inverted .button--primary:hover {

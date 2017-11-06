@@ -45,11 +45,11 @@ a:active {
 }
 .inverted a:link,
 .inverted a:visited {
-	color: var(--c-blue);
+	color: var(--c-teal);
 }
 .inverted a:hover,
 .inverted a:active {
-	color: var(--c-teal);
+	color: var(--c-blue);
 }
 
 code {
