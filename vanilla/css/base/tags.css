@@ -1,6 +1,9 @@
+html {
+	line-height: 1.6;
+}
 body {
 	font-family: var(--font-sans);
-	color: var(--c-text--primary);
+	color: var(--c-text--secondary);
 }
 .inverted {
 	color: var(--c-text--primary--inverted);
@@ -13,6 +16,8 @@ h3,
 h4,
 h5,
 h6 {
+	margin: 0 0 1rem 0;
+	padding: 0;
 	font-size: var(--text-m);
 	font-weight: bold;
 	color: var(--c-text--primary);
@@ -29,7 +34,9 @@ h6 {
 
 a:link,
 a:visited {
-	color: var(--c-plum);
+	color: var(--c-orange);
+	font-weight: bold;
+	text-decoration: none;
 }
 a:hover,
 a:active {
@@ -38,11 +45,11 @@ a:active {
 }
 .inverted a:link,
 .inverted a:visited {
-	color: var(--c-sand);
+	color: var(--c-blue);
 }
 .inverted a:hover,
 .inverted a:active {
-	color: var(--c-text--secondary--inverted);
+	color: var(--c-teal);
 }
 
 code {
@@ -50,4 +57,19 @@ code {
 	background: var(-c-plum);
 	color: var(-c-text--primary--inverted);
 	padding: 0.25rem;
+}
+
+p {
+	margin: 0 0 1rem 0;
+}
+
+ul {
+	margin: 0 0 1rem 0;
+	padding: 0;
+}
+ul > li {
+	margin-bottom: 0.25rem;
+}
+ul > li:last-child {
+	margin-bottom: 0;
 }

@@ -11,25 +11,24 @@
 /**
  * Font sizes
  * -----------
- * "Major Second" Scale (1:1.125)
  */
 html {
 	font-size: 17px; /* ROOT EM */
 }
 :root {
-	--text--display: 2.887rem;
-	--text--xl: 1.802rem;
-	--text--l: 1.226rem;
+	--text--display: 4.326rem;
+	--text--xl: 2.618rem;
+	--text--l: 1.618rem;
 	--text--m: 1rem;
-	--text-s: 0.889rem;
+	--text-s: 0.8rem;
 }
 /* TODO: use `postcss-media-variables` to enable this? */
 @media (min-width: 680px) {
 	:root {
-		--text--display: 3.653rem;
-		--text--xl: 2.027rem;
-		--text--l: 1.602rem;
+		--text--display: 4.326rem;
+		--text--xl: 2.618rem;
+		--text--l: 1.618rem;
 		--text--m: 1rem;
-		--text-s: 0.889rem;
+		--text-s: 0.8rem;
 	}
 }

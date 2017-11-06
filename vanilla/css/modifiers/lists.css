@@ -3,3 +3,7 @@
 	padding-left: 0;
 	list-style-type: none;
 }
+.resetList > li {
+	margin: 0;
+	padding: 0;
+}

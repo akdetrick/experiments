@@ -1,0 +1,42 @@
+/**
+ * All buttons
+ */
+.button {
+	border-radius: 3em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.75rem 1.5rem;
+	text-decoration: none !important;
+	color: var(--c-text--primary--inverted) !important;
+	background: var(--c-plum);
+}
+
+/**
+ * Default buttons
+ */
+.button:hover {
+	background: var(--c-darkblue);
+}
+.inverted .button {
+	color: var(--c-text--secondary) !important;
+	background: var(--c-text--secondary--inverted);
+}
+.inverted .button:hover {
+	background: var(--c-text--primary--inverted);
+}
+
+/**
+ * Primary buttons
+ */
+.button--primary,
+.inverted .button--primary {
+	color: var(--c-text--primary--inverted) !important;
+	background: var(--c-orange);
+}
+.button--primary:hover,
+.inverted .button--primary:hover {
+	color: var(--c-text--primary--inverted) !important;
+	background: var(--c-darkblue);
+}
+

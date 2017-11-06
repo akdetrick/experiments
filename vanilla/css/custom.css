@@ -28,3 +28,6 @@
 .swatch--blue {
 	background-color: var(--c-blue);
 }
+.swatch--darkblue {
+	background-color: var(--c-darkblue);
+}

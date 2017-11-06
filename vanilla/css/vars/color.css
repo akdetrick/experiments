@@ -4,7 +4,7 @@
  */
 :root {
 	--c-orange: #f15d03;
-	--c-teal: #69eccf;
+	--c-teal: #05d6b1;
 	--c-plum: #580f31;
 	--c-sand: #fbe7cf;
 	--c-blue: #66CAD9;
@@ -15,8 +15,8 @@
  * Type Colors
  */
 :root {
-	--c-text--primary: rgba(0,0,0,0.87);
-	--c-text--secondary: rgba(0,0,0,0.54);
-	--c-text--primary--inverted: rgba(255,255,255,0.9);
-	--c-text--secondary--inverted: rgba(255,255,255,0.7);
+	--c-text--primary: rgba(0,0,0,1);
+	--c-text--secondary: rgba(0,0,0,0.84);
+	--c-text--primary--inverted: rgba(255,255,255,1);
+	--c-text--secondary--inverted: rgba(255,255,255,0.8);
 }
