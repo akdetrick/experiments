@@ -1,14 +1,15 @@
 module.exports = {
-	use: [
-		'postcss-cssnext'
-	]
+	'use': [
+		'postcss-cssnext',
+		'postcss-import'
+	],
 	'autoprefixer': {
-		browsers: '> 5%'
+		'browsers': '> 5%'
 	},
 	'postcssCssnext': {
-		features: {
-			autoprefixer: true,
-			customProperties: false,
+		'features': {
+			'autoprefixer': true,
+			'customProperties': false,
 		}
 	}
 };

@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-	  "build": "postcss src/all.css -c ./postcss.conifg.js"
+    "build": "postcss src/all.css -c ./postcss.conifg.js -d example/css/ -o catalyst.css"
   },
   "dependencies": {
+    "normalize.css": "^7.0.0",
     "postcss-cli": "^4.1.1",
-    "postcss-cssnext": "^3.0.2"
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0"
   }
 }
