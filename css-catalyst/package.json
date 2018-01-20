@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+	  "build": "postcss src/all.css -c ./postcss.conifg.js"
+  },
   "dependencies": {
     "postcss-cli": "^4.1.1",
     "postcss-cssnext": "^3.0.2"
