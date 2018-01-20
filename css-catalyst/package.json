@@ -1,0 +1,10 @@
+{
+  "name": "css-catalyst",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2"
+  }
+}
