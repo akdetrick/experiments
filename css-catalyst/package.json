@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "postcss src/all.css -c ./postcss.conifg.js -d example/css/ -o catalyst.css"
+    "build": "postcss src/*.css -c ./postcss.conifg.js -d lib/"
   },
   "dependencies": {
     "normalize.css": "^7.0.0",
