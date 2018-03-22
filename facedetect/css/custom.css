@@ -1,0 +1,20 @@
+#pageWrap {
+	padding: 2rem;
+	background: pink;
+}
+
+#markerWrapper {
+	position: relative;
+}
+
+.marker {
+	position: absolute;
+	background: yellow;
+	border: 1px solid green;
+	opacity: 0.8;
+	top: 0;
+	left: 0;
+	width: 32px;
+	height: 32px;
+	border-radius: 100%;
+}
