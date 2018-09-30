@@ -1,0 +1,15 @@
+#pageWrap {
+	padding: 2rem;
+	background: #efefef;
+}
+
+.text--red {
+	color: red;
+}
+
+.chart {
+	background: #efefef;
+	border: 1px solid #ddd;
+	width: 425px;
+	height: 625px;
+}

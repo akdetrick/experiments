@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "yarn autoreload-server -w \"**/**.{html,js,css}\" ./",
+    "serve": "yarn autoreload-server -wr \"**/**.{html,js,css}\" ./",
 	 "new": "cp -r ./_TEMPLATE"
   },
   "author": "",
