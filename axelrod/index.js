@@ -7,7 +7,7 @@ const randomChoice = () => [
 ][Math.floor(Math.random() * 2)];
 
 game(
-  'burnBridges',
+  'soreLoser',
   'random',
-  500
+  5000
 );

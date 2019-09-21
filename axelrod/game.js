@@ -33,6 +33,7 @@ const play = (a, b, history) => {
 
   const getPlayerData = (playerName, scores=startingScores) => ({
       playerName,
+      round: history.length - 1,
       myChoices: histories[playerName],
       theirChoices: histories[playerName === 'a' ? 'b' : 'a'],
       myScore: scores[playerName],
@@ -101,9 +102,9 @@ module.exports = (aStrategy, bStrategy, playCount) => {
   const b = players(bStrategy);
 
   Array.from({ length: playCount }).forEach((v, i) => {
+      console.log(`⚔️  ROUND ${i}`);
       const res = play(a, b, plays);
       plays.push(res);
-      console.log(`⚔️  ROUND ${i + 1}`);
       niceLog({
         a: `${res.a} | ${aStrategy} | ${calculateScore(res).a}`,
         b: `${res.b} | ${bStrategy} | ${calculateScore(res).b}`,
