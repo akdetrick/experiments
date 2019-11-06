@@ -1,3 +1,5 @@
+// :TODO: make a thin redux-like util. State change = rerender.
+//
 const niceLog = (o) => { console.warn(JSON.stringify(o, null, 2)) };
 const BOARD_ROWS = 5;
 const INITIAL_SPACE_STATE = {
