@@ -6,8 +6,10 @@ const randomChoice = () => [
   'SILENT',
 ][Math.floor(Math.random() * 2)];
 
+// :TODO: it makes more sense to pass players
+// instead of strings (closer to pure fn)
 game(
-  'soreLoser',
   'random',
+  'titForTat',
   5000
 );

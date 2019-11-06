@@ -1,5 +1,5 @@
 # experiments
-Just a collection of js and layout experiments.
+Scratch pad for "fun" personal projects. Prototypes and stuff.
 
 ## Commands
 
