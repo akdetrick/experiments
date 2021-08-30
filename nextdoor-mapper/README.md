@@ -11,3 +11,11 @@ Inspiration: [https://nextdoor.com/news_feed/?post=199362353](https://nextdoor.c
 5. polling for changes to post; updating in real time; linking back to comments from pins
 6. deployable to some cloud service
 
+---
+
+# Better idea?
+
+- do this as a generic program for "all visible text on a webpage"
+- do it as a bookmarklet
+- ???
+- profit
